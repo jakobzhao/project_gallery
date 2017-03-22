@@ -1,0 +1,129 @@
+#map{
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display : block;
+
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+	line-height: 1.2;
+    height: 100%;
+	font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.content
+{
+	margin-top: 50px;
+	color: rgba(2, 2, 2, 0.60);
+}
+.logo img
+{
+	display: inline-block;
+}
+.logo h2
+{
+	font-family: 'Lobster', cursive;
+	font-size: 44px;
+    padding-top: 0px;
+}
+
+.logo h3
+{
+    font-family: 'Open Sans', cursive;
+    font-size: 20px;
+    padding-top: 0px;
+}
+#countdown {
+    text-align: center;
+    margin:  50px 0px 0px;
+    min-height: 104px;
+}
+#countdown > div {
+    width: 100px;
+    height: 100px;
+    margin: 0px 1%;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 52px;
+    position: relative;
+    font-weight: 700;
+    color: rgba(2, 2, 2, 0.5);
+    border: 2px solid rgba(119, 119, 119, 0.6);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#countdown > div > span
+{
+	display: block;
+}
+
+.sub-p
+{
+	font-size: 14px;
+	padding: 5px 0px 15px;
+}
+
+.section-padding
+{
+	padding: 5px;
+}
+.about-title h2
+{
+	font-size: 24px;
+	font-family: 'Lobster', cursive;
+	padding-bottom: 3px;
+}
+p{
+    color: rgba(2, 2, 2, 0.7);
+    font-size: 15px;
+}
+.img
+{
+	margin-top: 10px;
+}
+.img i
+{
+	font-size: 44px;
+}
+
+.abt-hd
+{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+h2.subs-title  {
+    font-family: 'Lobster', cursive;
+    font-size: 34px;
+    padding: 5px 0px 5px;
+}
+
+a:visited {color: rgba(2, 2, 2, 0.6); background-color:transparent; text-decoration:none}
+a:hover   {color: rgba(160, 160, 160, 0.6); background-color:transparent; text-decoration:none}
+a:active {color: rgba(2, 2, 2, 0.6); background-color:transparent; text-decoration:none}
+a:link   {color: rgba(2, 2, 2, 0.6); background-color:transparent; text-decoration:none}
