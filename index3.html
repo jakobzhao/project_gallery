@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GEOG 371: Final Project Presentation</title>
+    <meta name="description" content="GEOG 371: Final Project Presentation">
+    <meta property="og:title" content="GEOG 371: Final Project Presentation" />
+    <meta property="og:url" content="http://mapio.us/final/" />
+    <meta property="og:description" content="Welcome to the final project presentation of GEOG 371: Web Mapping! The presentation will be held at 361 Strand Hall (The GAZE Lab) on March 22nd, from noon to 1:50pm. Dessert and coffee will be served. This Course is given annually by Dr. Bo Zhao at Oregon State University." />
+    <meta property="og:image" content="interface.png" />
+    <link href='https://fonts.googleapis.com/css?family=Lobster|Open+Sans:400,400italic,300italic,300|Raleway:300,400,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="favicon-university.ico" rel="icon">
+    <!--add required libraries-->
+    <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
+</head>
+<body>
+<div id="map"></div>
+<div class="content">
+    <div class="container-fluid wow fadeInUp delay-03s">
+        <div class="row">
+            <div class="logo text-center">
+                <h2> We are baking web maps of the future!!!</h2>
+            </div>
+            <div id="countdown" data-wow-delay=".3s" data-date="Mar 22, 2017 12:00:00"></div>
+        </div>
+    </div>
+    <section id="cases" class="section-padding wow fadeInUp">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 text-center">
+                    <div class="about-title container">
+                        <h2>Web Map Project Gallery</h2>
+                        <p class="text-center"><b> Welcome to the final project presentation of GEOG 371: Web Mapping! The presentation will be held at 361 Strand Hall (The GAZE Lab) on March 22nd, from noon to 1:50pm. Dessert and coffee will be served. The web map projects below were ordered randomly.</b></p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-02s">
+                        <div class="img">
+                            <a href="https://daliposc.github.io/divergent-america-webmap/" target="_blank"> <img src="img/noel_connor.png" class="image-responsive" width="250" /></a>
+                        </div>
+                        <h3 class="abt-hd">Divergent America</h3>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-04s">
+                        <div class="img">
+                            <a href="http://rawgit.com/cartobaldrica/water_atlas/master/flood_index.html" target="_blank"> <img src="img/gareth.png" class="image-responsive" width="250" /></a>
+                        </div>
+                        <h3 class="abt-hd">Oregon Water</h3>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-06s">
+                        <div class="img">
+                            <a href="https://cdn.rawgit.com/johnsoRiB/SoccerInThePNW/fe3f22fe/soccerinthepnw.html" target="_blank"> <img src="img/riley.png" class="image-responsive" width="250" /></a>
+                        </div>
+                        <h3 class="abt-hd">Soccer in the Pacific Northwest</h3>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-06s">
+                        <div class="img">
+                            <a href="http://cdn.rawgit.com/nathanvancleave/geog371storymap/master/index.html" target="_blank"> <img src="img/nathan.png" class="image-responsive" width="250" /></a>
+                        </div>
+                        <h3 class="abt-hd">Mary's Peak Viewshed Analysis</h3>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-12 col-sm-12 text-center">
+
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-02s">
+                        <div class="img">
+                            <a href="#" target="_blank"> <img src="img/ben.png" class="image-responsive" width="250" /></a>
+                        </div>
+                        <h3 class="abt-hd">Satellite Riddles</h3>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-04s">
+                        <div class="img">
+                            <a href="#" target="_blank"> <img src="img/keith.png" class="image-responsive" width="250" /></a>
+                        </div>
+                        <h3 class="abt-hd">Scenic Routes in Western Oregon</h3>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-06s">
+                        <div class="img">
+                            <a href="http://rawgit.com/mtsavage/OregonTrail/master/" target="_blank"> <img src="img/madeleine.png" class="image-responsive" width="250" /></a>
+                        </div>
+                        <h3 class="abt-hd">The Oregon Trail</h3>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-06s">
+                        <div class="img">
+                            <a href="http://htmlpreview.github.io/?https://github.com/benzen444/EDISTO-Array2/blob/master/Final_Project/Final%20Stuff/FinalProject5.0.html" target="_blank"> <img src="img/benjamin.png" class="image-responsive" width="250" /></a>
+                        </div>
+                        <h3 class="abt-hd">EDISTO Array</h3>
+                    </div>
+                </div>
+
+
+                <div class="col-md-12 col-sm-12 text-center">
+
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-02s">
+                        <div class="img">
+                            <a href="#" target="_blank"> <img src="img/scott.png" class="image-responsive" width="250" /></a>
+                        </div>
+                        <h3 class="abt-hd">Pedestrian Accessibility in Corvallis, OR</h3>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-06s">
+                        <div class="img">
+                            <a href="#" target="_blank"> <img src="img/jared.png" class="image-responsive" width="250" /></a>
+                        </div>
+                        <h3 class="abt-hd">Where can I fly my drone?</h3>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp delay-06s">
+                        <div class="img">
+                            <a href="http://www.mapio.us/storymap/fullpage.html" target="_blank"> <img src="img/bo.png" class="image-responsive" width="250" /></a>
+                        </div>
+                        <h3 class="abt-hd">Cities in Oregon</h3>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.countdown.min.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/custom.js"></script>
+<script>
+
+    var map = L.map('map', {zoomControl: false, scrollWheelZoom: false}).setView([44.5684904,-123.263659], 11);
+    // add an base map, which can be either OSM, mapbox, tilelayer, wmslayer or those designed by yourself.
+    var streets = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw', {
+        maxZoom: 18,
+        attribution: '<a target="_blank">Bo Zhao</a>',
+        id: 'mapbox.streets',
+        detectRetina: true
+    });
+    var outdoors = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw', {
+        maxZoom: 18,
+        attribution: '<a target="_blank">Bo Zhao</a>',
+        id: 'mapbox.outdoors',
+        detectRetina: true
+    });
+
+    var satellite = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw', {
+        maxZoom: 18,
+        attribution: '<a target="_blank">Bo Zhao</a>',
+        id: 'mapbox.satellite',
+        detectRetina: true
+    });
+
+    var light = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw', {
+        maxZoom: 18,
+        attribution: '<a target="_blank">Bo Zhao</a>',
+        id: 'mapbox.light',
+        detectRetina: true
+    });
+
+    //map.invalidateSize();
+    document.getElementsByClassName("leaflet-control-attribution")[0].style.visibility = "hidden";
+
+    var layers = [
+        L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw', {
+            maxZoom: 18,
+            attribution: '<a target="_blank">Bo Zhao</a>',
+            id: 'mapbox.streets',
+            detectRetina: true
+        }),
+        L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw', {
+            maxZoom: 18,
+            attribution: '<a target="_blank">Bo Zhao</a>',
+            id: 'mapbox.outdoors',
+            detectRetina: true
+        }),
+        L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {
+            attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+            subdomains: 'abcd',
+            minZoom: 1,
+            maxZoom: 16,
+            ext: 'png'
+        }),
+        L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw', {
+            maxZoom: 18,
+            attribution: '<a target="_blank">Bo Zhao</a>',
+            id: 'mapbox.light',
+            detectRetina: true
+        }),
+        NASAGIBS_ModisTerraBands367CR = L.tileLayer('http://map1.vis.earthdata.nasa.gov/wmts-webmerc/MODIS_Terra_CorrectedReflectance_Bands367/default/{time}/{tilematrixset}{maxZoom}/{z}/{y}/{x}.{format}', {
+            attribution: 'Imagery provided by services from the Global Imagery Browse Services (GIBS), operated by the NASA/GSFC/Earth Science Data and Information System (<a href="https://earthdata.nasa.gov">ESDIS</a>) with funding provided by NASA/HQ.',
+            bounds: [[-85.0511287776, -179.999999975], [85.0511287776, 179.999999975]],
+            minZoom: 1,
+            maxZoom: 9,
+            format: 'jpg',
+            time: '',
+            tilematrixset: 'GoogleMapsCompatible_Level'
+        }),
+        L.tileLayer('http://map1.vis.earthdata.nasa.gov/wmts-webmerc/MODIS_Terra_CorrectedReflectance_TrueColor/default/{time}/{tilematrixset}{maxZoom}/{z}/{y}/{x}.{format}', {
+            attribution: 'Imagery provided by services from the Global Imagery Browse Services (GIBS), operated by the NASA/GSFC/Earth Science Data and Information System (<a href="https://earthdata.nasa.gov">ESDIS</a>) with funding provided by NASA/HQ.',
+            bounds: [[-85.0511287776, -179.999999975], [85.0511287776, 179.999999975]],
+            minZoom: 1,
+            maxZoom: 9,
+            format: 'jpg',
+            time: '',
+            tilematrixset: 'GoogleMapsCompatible_Level'
+        }),
+        L.tileLayer('http://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+            maxZoom: 17,
+            attribution: 'Map data: &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
+        })
+    ];
+
+    var currentLayerGroup = L.layerGroup().addTo(map);
+    currentLayerGroup.addLayer(layers[Math.floor(Math.random() * 4)]);
+
+    $(document).ready(function(){
+
+
+
+        setInterval(function(){
+
+            currentLayerGroup.clearLayers();
+            currentLayerGroup.addLayer(layers[Math.floor(Math.random() * 4)]);
+            map.invalidateSize();
+
+        }, 5000);
+        //    currentLayerGroup.addLayer(layers[Math.floor(Math.random() * 4)]);
+        //  map.invalidateSize();
+
+
+    });
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
